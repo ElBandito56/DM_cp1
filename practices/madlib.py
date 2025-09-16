@@ -5,7 +5,7 @@ name=input("give me your name.")
 event=input("givr me a crazy event")
 place=input("whats a random place")
 verbing=input("give me a verd that ends with ing.")
-verb=input("give me a verb.")
+verb=input("give me a action.")
 
 
 
