@@ -1,4 +1,5 @@
 #DM class Shopping List Manager
+#so confused please help meee
 
 a_list = []
 while True:
