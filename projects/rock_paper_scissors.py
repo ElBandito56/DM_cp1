@@ -10,5 +10,15 @@ while True:
         if computer == 1:
             print("you lost! sciccors beats paper")
             computer_score += 1
-        elif computer 
+        elif computer == 2:
+            print( " you won! paper beats rock")
+            user_score += 1
+        elif computer == 3:
+            print("you both chose paper")
+    elif player == "rock":
+        if computer == 1:
+            print ("score! rock beats sciccors ")
+        elif computer == 2:
+            print 
+        
 
