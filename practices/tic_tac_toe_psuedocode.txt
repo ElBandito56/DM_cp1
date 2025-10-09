@@ -1,0 +1,25 @@
+#DM 2cnd period
+
+# variables would be here like player list and computer list
+
+#display "do you want to play tic-tac-toe?" 
+
+#if they type yes then it will display "lets play! 
+  #  then make them input where they will want to place on their board displaying
+   # "input a number 1-9, 1 being the square on the top left and 9 the bottem right"
+#here will be a list with only zero to start  and here will be an if statment 
+    #if the number is 1-9 then it will find that number and add it to the list
+#here another list starting with 0 and using random.randint will generate a number 1-9 and add that to computers list
+    #here another if stament checking if the player has gotten any way to win 
+   # othwerwise checking if the computer has won
+    #otherwise if the board is full it will display (its a tie)
+  #  else it will repeat this procces until either the compuer has won or the player has
+   # if the player has won it will display "awh you win" 
+   # if the compuer has won it will display "awh you lose :("
+     
+
+
+#otherwise if  they say no the it will display "lets play later :("
+
+# if they put something else it will display "thats not a valid answer"
+
