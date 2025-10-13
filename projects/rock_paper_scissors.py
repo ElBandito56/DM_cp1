@@ -18,7 +18,32 @@ while True:
     elif player == "rock":
         if computer == 1:
             print ("score! rock beats sciccors ")
+            user_score += 1
         elif computer == 2:
-            print 
+            print ("thats a tie!")
+        elif computer == 3:
+            print("awh you lost paper beats rock")
+            computer_score = 3 
+    elif player == "sciccors":
+        if computer == 1:
+            print("you tied!")
+        elif computer == 2:
+            print("awh you lost rock beats sciccors")
+            computer_score += 1 
+        elif computer == 2:
+            print("you won! sciccors beats paper")
+            user_score += 1
+    else:
+        print('you cant play that')
+    if computer_score == 1:
+        print("the computer has won")
+    elif user_score == 1:
+        print("you have won ")
+    else:
+        print("you tied")
+        
+
+
+
         
 
