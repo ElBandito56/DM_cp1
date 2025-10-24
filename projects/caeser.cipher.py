@@ -1,7 +1,7 @@
 #DM 2cnd Ceaser cipheer
 # make 2 functions one that decodes a inputed message and one that encrypts a message
 def decode():
-   
+   Dmsg = input(" what would you like to decode")
 
    
 
@@ -21,3 +21,4 @@ elif user_in == "encrypt":
 #else display thats not a viable response
 else:
    print("thats not a real input")
+   
