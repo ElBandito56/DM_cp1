@@ -7,7 +7,12 @@ import turtle
 finish  = turtle.Turtle()
 finish.penup()
 finish.goto(x=500,y=500)
-finish.pendown
+finish.pendown()
+finish.pensize(15)
+finish.hideturtle()
+finish.right(90)
+finish.forward(1000)
+
 #make my 5 turtles
 #make turtle 1 
 t1 = turtle.Turtle()
@@ -82,4 +87,5 @@ while True:
         continue
     
     #display " this (turtle who won) won"
+turtle.done 
    
