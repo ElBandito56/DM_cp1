@@ -85,7 +85,7 @@ while True:
         break
     else:
         continue
-    
+               
     #display " this (turtle who won) won"
-turtle.done 
+turtle.done()
    
