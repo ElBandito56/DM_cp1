@@ -68,19 +68,19 @@ while True:
     t5 .forward(random.randint (10,50))
     finish_line = 500
 #check what turtle one
-    if t1 > finish_line:
+    if t1.xcor() >= finish_line:
         print("The red turtle won")
         break
-    elif t2 > finish_line:
+    elif t2.xcor() >= finish_line:
         print('the purple turtle won')
         break
-    elif t3 > finish_line:
+    elif t3.xcor() >= finish_line:
         print("the green turtle won")
         break
-    elif t4 > finish_line:
+    elif t4.xcor() >= finish_line:
         print('the brown turtle won')
         break
-    elif t5 > finish_line:
+    elif t5.xcor >=  finish_line:
         print("the pink turtle one")
         break
     else:
