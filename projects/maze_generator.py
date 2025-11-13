@@ -21,7 +21,7 @@ def generatemaze():
         [],
         [],
         [],
-        [],
+        [],  
         [],
         []
     ]
@@ -36,20 +36,25 @@ def generatemaze():
 
 def draw_maze(grid):
     turtle.speed(0)
+
 turtle.penup()
 turtle.pensize(3)
 turtle.goto(x = 0, y = 0)
 turtle.pendown()
 for i in range(4):
     turtle.forward(60)
-    if turtle.ycor() == 360 or turtle.ycor == 0:
+    if turtle.ycor() == -360 or turtle.ycor() == 0:
         turtle.penup()
         turtle.forward(60)
         turtle.pendown()
         turtle.forward(240)
-        turtle.right(90)   
+       
+    else:
+        turtle.forward(300)
+    turtle.right(90)
+
 turtle.penup()
-turtle.done
+turtle.done()
 
 #make a function to check if the maze is solveable by checking if it has an opening and a closing    
 #make a function to print said maze in tutrtle 
