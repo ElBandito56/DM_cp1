@@ -45,7 +45,7 @@ for i in range(4):
     turtle.forward(60)
     if turtle.ycor() == -360 or turtle.ycor() == 0:
         turtle.penup()
-        turtle.forward(60)
+        turtle.forward(60)           
         turtle.pendown()
         turtle.forward(240)
        
