@@ -16,8 +16,7 @@ def factorial(number):
        factor = factor -1
        
        return number
-   
-print(gg:[number] 
+
 #if input is a digit
 #make input a float
 #round number
