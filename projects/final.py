@@ -60,8 +60,25 @@ crit = random.randint(1,5)
 
 
 
+def investigate(preroom):
+  if preroom == mainhall: 
+      Mchoice = input("you are in the main hall\n go to kitchen (1)\n go to the living room(2) \n go to bathroom(3) \n")
+      if Mchoice == 1:
+         preroom = kitchen
+      elif Mchoice == 2:
+        preroom = livroom
+      elif Mchoice == 3:
+        preroom = baro
+
+  elif preroom == kitchen:
+    kchoice = input("s")
+      
 
 
-inventory = [" nightlight "]
+
+
+
 
 game()
+investigate(mainhall)
+
